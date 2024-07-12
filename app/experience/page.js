@@ -1,10 +1,10 @@
 // @flow strict
 
-import { experiences } from "@/utils/data/experience";
+import { experiences } from "../../utils/data/experience";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
-import AnimationLottie from "../../helper/animation-lottie";
-import GlowCard from "../../helper/glow-card";
+import AnimationLottie from "../components/helper/animation-lottie";
+import GlowCard from "../components/helper/glow-card";
 import experience from '/public/lottie/code.json';
 
 function Experience() {
